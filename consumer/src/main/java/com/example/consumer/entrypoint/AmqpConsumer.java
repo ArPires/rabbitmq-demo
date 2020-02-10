@@ -6,16 +6,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rabbitmq.client.Channel;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.amqp.AmqpRejectAndDontRequeueException;
-import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.core.CustomExchange;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.support.AmqpHeaders;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.amqp.RabbitProperties;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
@@ -29,16 +25,25 @@ public class AmqpConsumer {
 
     private ObjectMapper mapper = new ObjectMapper();
 
-    @Autowired private RabbitTemplate rabbitTemplate;
-    @Autowired private CustomExchange delayedExchange;
-    @Autowired private ThirdPartyService thirdPartyService;
-    @Autowired private Queue mainQueue;
-    @Autowired private Queue deadLetterQueue;
-    @Autowired private Queue trashQueue;
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+    @Autowired
+    private CustomExchange delayedExchange;
+    @Autowired
+    private ThirdPartyService thirdPartyService;
+    @Autowired
+    private Queue mainQueue;
+    @Autowired
+    private Queue deadLetterQueue;
+    @Autowired
+    private Queue trashQueue;
 
+
+    @SneakyThrows
     @RabbitListener(queues = "testQueue")
     public void consumer(@Payload Message message,
-                         @Header("x-retry-count") int retryCount) {
+                         @Header("x-retry-count") int retryCount,
+                         Channel channel) {
 
         MessageDto messageDto;
         try {

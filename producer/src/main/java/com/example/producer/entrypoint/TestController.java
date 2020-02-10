@@ -7,7 +7,6 @@ import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.connection.CorrelationData.Confirm;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.support.AmqpHeaders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -50,7 +49,7 @@ public class TestController {
 
     private void setupCallbacks() {
         this.rabbitTemplate.setConfirmCallback((correlationData, ack, reason) -> {
-            if(correlationData != null) {
+            if (correlationData != null) {
                 log.info("Received: " + (ack ? "ack" : "nack") + " for correlation: " + correlationData);
             }
         });
