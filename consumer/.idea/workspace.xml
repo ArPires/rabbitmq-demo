@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="986d9fea-4089-43d9-8625-fa42e4db0992" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XR4fTBTsUeGfcipUE6NTwN25ok" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578931241545" />
+    <property name="last_opened_file_path" value="C:/Program Files/RabbitMQ Server/rabbitmq_server-3.7.16/sbin/rabbitmq-server.bat" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NB25130\Desktop\consumer\src\main\java\com\example\consumer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Compound.StartAll">
+    <configuration name="ConsumerApplication" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.consumer.ConsumerApplication" />
+      <module name="consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.producer.ProducerApplication" />
+      <module name="producer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdpartyApplication" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.thirdparty.ThirdpartyApplication" />
+      <module name="thirdparty" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="ThirdpartyApplication" type="Application" />
+      <toRun name="ProducerApplication" type="Application" />
+      <toRun name="ConsumerApplication" type="Application" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerApplication" />
+      <item itemvalue="Application.ProducerApplication" />
+      <item itemvalue="Application.ThirdpartyApplication" />
+      <item itemvalue="Compound.StartAll" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="986d9fea-4089-43d9-8625-fa42e4db0992" name="Default Changelist" comment="" />
+      <created>1577373165665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577373165665</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2597" y="179" key="#ConsumerApplication" timestamp="1581177278595">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#ConsumerApplication/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581177278595" />
+    <state x="2597" y="179" key="#ProducerApplication" timestamp="1581177242273">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#ProducerApplication/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581177242273" />
+    <state x="2597" y="179" key="#ThirdpartyApplication" timestamp="1581177295991">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#ThirdpartyApplication/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581177295991" />
+    <state x="2334" y="175" width="1092" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581180642348">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" width="1092" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180642348" />
+    <state x="2609" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581177085000">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2609" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581177085000" />
+    <state x="2649" y="350" width="454" height="485" key="#com.intellij.tools.ToolEditorDialog" timestamp="1581180272428">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2649" y="350" width="454" height="485" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180272428" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1581180019865">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180019865" />
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom" timestamp="1581327013799">
+      <screen x="7" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581327013799" />
+    <state width="1877" height="355" key="GridCell.Tab.0.center" timestamp="1581327013798">
+      <screen x="7" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581327013798" />
+    <state width="1877" height="355" key="GridCell.Tab.0.left" timestamp="1581327013798">
+      <screen x="7" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581327013798" />
+    <state width="1877" height="355" key="GridCell.Tab.0.right" timestamp="1581327013799">
+      <screen x="7" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581327013799" />
+    <state x="497" y="-905" key="Maven.ArtifactSearchDialog" timestamp="1580995776335">
+      <screen x="7" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="497" y="-905" key="Maven.ArtifactSearchDialog/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1580995776335" />
+    <state x="2360" y="95" key="SettingsEditor" timestamp="1581180324990">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="95" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180324990" />
+    <state x="2414" y="255" width="571" height="528" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1581180274386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2414" y="255" width="571" height="528" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180274386" />
+  </component>
+</project>

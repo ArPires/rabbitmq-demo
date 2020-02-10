@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StartAll" type="CompoundRunConfigurationType">
+    <toRun name="ThirdpartyApplication" type="Application" />
+    <toRun name="ProducerApplication" type="Application" />
+    <toRun name="ConsumerApplication" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>
