@@ -3,6 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="986d9fea-4089-43d9-8625-fa42e4db0992" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/.helmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/Chart.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/templates/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/templates/_helpers.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/templates/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/templates/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/templates/tests/test-connection.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm-consumer/values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/.helmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/Chart.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/templates/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/templates/_helpers.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/templates/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/templates/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/templates/tests/test-connection.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/helm-producer/values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/.helmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/Chart.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/templates/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/templates/_helpers.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/templates/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/templates/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/templates/tests/test-connection.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/helm-thirdparty/values.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
