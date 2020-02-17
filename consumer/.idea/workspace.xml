@@ -3,6 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="986d9fea-4089-43d9-8625-fa42e4db0992" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/consumer/service/ThirdPartyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/consumer/service/ThirdPartyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/charts/helm-consumer/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../helm-parent-demo/charts/helm-consumer/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/charts/helm-producer/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../helm-parent-demo/charts/helm-producer/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/charts/helm-producer/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../helm-parent-demo/charts/helm-producer/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/templates/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/templates/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/templates/tests/test-connection.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helm-parent-demo/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../helm-parent-demo/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thirdparty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thirdparty/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../thirdparty/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +32,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="disabledProfiles">
+      <list>
+        <option value="cia" />
+        <option value="sonar" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1XR4fTBTsUeGfcipUE6NTwN25ok" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,7 +57,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -127,38 +150,38 @@
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180019865" />
     <state x="747" y="-805" key="FileChooserDialogImpl/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581328677894" />
-    <state width="1877" height="477" key="GridCell.Tab.0.bottom" timestamp="1581615155752">
-      <screen x="5" y="-1080" width="1920" height="1040" />
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1581938235692">
+      <screen x="7" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="353" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581769520291" />
     <state width="1877" height="477" key="GridCell.Tab.0.bottom/0.0.1536.824/5.-1080.1920.1040@5.-1080.1920.1040" timestamp="1581615155752" />
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581336416625" />
-    <state width="1877" height="477" key="GridCell.Tab.0.center" timestamp="1581615155752">
-      <screen x="5" y="-1080" width="1920" height="1040" />
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581938235692" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1581938235691">
+      <screen x="7" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="353" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581769520290" />
     <state width="1877" height="477" key="GridCell.Tab.0.center/0.0.1536.824/5.-1080.1920.1040@5.-1080.1920.1040" timestamp="1581615155752" />
-    <state width="1877" height="334" key="GridCell.Tab.0.center/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581336416625" />
-    <state width="1877" height="477" key="GridCell.Tab.0.left" timestamp="1581615155752">
-      <screen x="5" y="-1080" width="1920" height="1040" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581938235691" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1581938235691">
+      <screen x="7" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="353" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581769520290" />
     <state width="1877" height="477" key="GridCell.Tab.0.left/0.0.1536.824/5.-1080.1920.1040@5.-1080.1920.1040" timestamp="1581615155752" />
-    <state width="1877" height="334" key="GridCell.Tab.0.left/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581336416624" />
-    <state width="1877" height="477" key="GridCell.Tab.0.right" timestamp="1581615155752">
-      <screen x="5" y="-1080" width="1920" height="1040" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581938235691" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1581938235691">
+      <screen x="7" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180164726" />
+    <state width="1877" height="353" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581769520290" />
     <state width="1877" height="477" key="GridCell.Tab.0.right/0.0.1536.824/5.-1080.1920.1040@5.-1080.1920.1040" timestamp="1581615155752" />
-    <state width="1877" height="334" key="GridCell.Tab.0.right/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581336416625" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1581938235691" />
     <state x="497" y="-905" key="Maven.ArtifactSearchDialog" timestamp="1580995776335">
       <screen x="7" y="-1080" width="1920" height="1040" />
     </state>
     <state x="497" y="-905" key="Maven.ArtifactSearchDialog/0.0.1536.824/7.-1080.1920.1040@7.-1080.1920.1040" timestamp="1580995776335" />
-    <state x="445" y="-985" key="SettingsEditor" timestamp="1581616087465">
-      <screen x="5" y="-1080" width="1920" height="1040" />
+    <state x="2360" y="95" key="SettingsEditor" timestamp="1581764607190">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2360" y="95" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581180324990" />
+    <state x="2360" y="95" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581764607190" />
     <state x="445" y="-985" key="SettingsEditor/0.0.1536.824/5.-1080.1920.1040@5.-1080.1920.1040" timestamp="1581616087465" />
     <state x="2414" y="255" width="571" height="528" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1581180274386">
       <screen x="1920" y="0" width="1920" height="1040" />

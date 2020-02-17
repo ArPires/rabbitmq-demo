@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ .Values.configMap.name }}
+data:
+  RABBITMQ_HOST: demo-rabbit-ha.default.svc.cluster.local
+  RABBITMQ_PORT: 5672
+  THIRDPARTY_URL: http://thirdparty.default.svc.cluster.local:9997/thirdparty?m=
