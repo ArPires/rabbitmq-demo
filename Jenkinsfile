@@ -1,8 +1,4 @@
 pipeline {
-
-	environment {
-		CONSUMER_VERSION
-	}
 	
 	//Stage 1: Checkout Code from Git
 	stage('Application Code Checkout from Git') {
