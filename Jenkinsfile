@@ -1,6 +1,9 @@
 pipeline {
 
 	agent any
+	tools { 
+        maven 'Maven 3.6.0'
+	}
 	
 	stages {
 		//Stage 1: Checkout Code from Git
@@ -13,21 +16,17 @@ pipeline {
 		//Stage 2: Test Consumer code with maven
 		stage('Test Consumer MS with maven') {
 			steps {
-				container('maven') {
-					dir("./consumer") {
-						sh ("mvn test")
-					}
+				dir("./consumer") {
+					sh ("mvn test")
 				}
 			}
 		}
 		
 		stage('Build Consumer code') {
 			steps {
-				container('maven') {
-					dir("./consumer") {
-						sh ("mvn clean package")
-					}
-				}
+				dir("./consumer") {
+					sh ("mvn clean package")
+				}	
 			}
 		}
 	}
